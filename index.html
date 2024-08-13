@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Number Manipulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <div class="container">
+        <h1 class="box">Number Manipulator</h1>
+<p class="note">On clicking the buttons we see increament/decrement in the progress bar.On clicking add1 button progress bar is
+            increament by 1 and on clicking the sub1 button decrement by 1 and also we can perform undo and redo on clicking buttons</p>
+        <div class="controls">
+           
+            <button id="add">ADD</button>
+            <button id="subtract">SUBTRACT</button>
+            <button id="undo">UNDO</button>
+            <button id="redo">REDO</button>
+        </div>
+        <div class="progress-container">
+            <progress id="progressBar" max="150" value="0"></progress>
+            <span id="currentValue">0</span>
+        </div>
+    </div>
+    
+        
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
